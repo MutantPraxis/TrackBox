@@ -1,0 +1,52 @@
+.tb3-nav{
+  background-color: white;;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.tb3-nav ul{
+  list-style: none;
+  gap: 1rem;
+}
+
+.tb3-nav ul, .tb3-nav li {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+@font-face {
+  font-family: 'Slackside One';
+  src: url('fonts/SlacksideOne-Regular.ttf') format('truetype');
+}
+
+li.tb3-title {
+  font-size: 2.5em;
+  height: 1em;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+li.tb3-title span {
+  font-family: 'Slackside One', cursive;
+  word-spacing: -0.05em;
+  letter-spacing: -0.05em;
+  color: #999;
+  display: inline-block;
+  margin-top: -19.1px;
+}
+
+.tb3-nav button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0.5rem 1rem;
+}
+
+
+
+
